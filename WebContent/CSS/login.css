@@ -1,0 +1,43 @@
+body{
+	width: 100%;   
+	height: 100%;   
+	background: #2B3238;
+	overflow: auto;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;   
+	-webkit-font-smoothing: antialiased;   
+}
+#container{
+	position: fixed;
+    width: 26em;
+    height: 50ex;
+    top: 50%;
+    left: 50%;
+    margin-top: -25ex;
+    margin-left: -15em;
+    background-color: #633B9E;
+    opacity:0.9;
+    border: 1px solid grey;
+}
+#form{
+	margin: 0 auto;
+	margin-top: 5ex;
+}
+input{
+    color: #777;
+    padding-left: 1em;
+    margin: 2em;
+    margin-top: 2ex;
+    margin-left: 3em;
+    width: 30em;
+    height: 5ex;
+}
+input[type=submit]{
+	cursor: pointer;
+	width: 31.75em;
+	height: 5ex;
+}
+#stern_logo{
+	width: 75%;
+	height: 40%;
+	margin-left: 12.5%;
+}
