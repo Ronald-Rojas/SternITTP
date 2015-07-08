@@ -7,10 +7,10 @@ body{
 	-webkit-font-smoothing: antialiased;   
 }
 input{
-        width: 50%;
+        width: 60%;
 		height: 1%;
 		margin-top: 3%;
-		margin-left:25%;
+		margin-left:20%;
         cursor:pointer; 
         padding: 1%; 
         background: black; 
@@ -19,19 +19,37 @@ input{
         color:#f3f3f3;
         font-size:1.1em;
         text-align: center;	
+        
 }
  input[type="date"]:before {
     content: attr(placeholder) !important;
     color: #aaa;
-    margin-right: 0.5em;
   }
   input[type="date"]:focus:before,
   input[type="date"]:valid:before {
     content: "";
  }
+input[type="submit"]{
+    width:62%;
+}
 #stern_logo{
 	width: 50%;
 	height: 20%;
 	padding-top: 0;
 	margin-left: 25%;
+} 
+form{
+	background:#f3f3f3;
+	width:60%;
+	margin-left:20%;
+	margin-top:1em;
+	margin-bottom:1em;
+	padding-bottom:1em;
+    
+}
+h2{
+	padding-top:1%;
+    text-align: center;
+    color: white;
+
 }
