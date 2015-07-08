@@ -14,7 +14,7 @@
 </head>
 <body onload="updateTime()">
 	<div id="container">
-	<img id="stern_logo" src="img/stern_color_rgb.png" alt="STERN LOGO" id="stern_logo">
+	<img id="stern_logo" src="img/stern_white_rgb.png" alt="STERN LOGO" id="stern_logo">
 	
 		<div id="digital_clock">
 			<script type="text/javascript">

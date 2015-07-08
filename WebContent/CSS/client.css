@@ -6,37 +6,25 @@ body{
 	font-family: "Helvetica Neue", Helvetica, sans-serif;   
 	-webkit-font-smoothing: antialiased;   
 }
-#container{
-	position: fixed;
-    width: 26em;
-    height: 50ex;
-    top: 50%;
-    left: 50%;
-    margin-top: -25ex;
-    margin-left: -15em;
-    background-color: #633B9E;
-    opacity:0.9;
-    border: 1px solid grey;
-}
 #digital_clock{
-	height: 35%;
-	margin-left: 29%;
+	height: 25%;
+	margin-left: 40%;
 	margin-top: 2%;
-	color: white;		
-	font-size: 300%;
+	color: white;
+	font-size: 600%;
 }
 input{
-		height: 20%;
-		margin-left: 25%;
-		margin-top: 5%;
-        cursor:pointer; 
-        padding: 5%; 
         width: 50%;
+		height: 10%;
+		margin-top: 3%;
+		margin-left:25%;
+        cursor:pointer; 
+        padding: 3%; 
         background: black; 
         border:1px solid white; 
         border-radius: 2em;
-        color:#f3f3f3;
-        font-size:1.1em;	
+        color: white;
+        font-size:2.5em;	
 }
 #stern_logo{
 	width: 50%;
