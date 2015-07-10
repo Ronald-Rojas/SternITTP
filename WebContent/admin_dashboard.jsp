@@ -13,6 +13,7 @@
 	<div id="container">
 		<img id="stern_logo" src="img/stern_white_rgb.png" alt="STERN LOGO" id="stern_logo">
 		<div id="search_hours">
+		<h2>Single Student Hours </h2>
 		<form action="user_report.jsp" method="post">
 			<div id="stern_id">
 				<input type="text" name="stern_id" placeholder="ENTER STERN ID">
@@ -29,9 +30,12 @@
 			<div id="submit">
 				<input type="submit" name="search_button" value="LOOKUP IT USER HOURS">
 			</div>
-			<hr>
+			
 		</form>
+		<hr>
+		<h2>Master Report Hours</h2>
 			<form action="master_report.jsp" method="post">
+			
 				<div id="start_time">
 					<input type="date" name="sdate" placeholder="BEGIN SEARCH DATE RANGE">
 				</div>

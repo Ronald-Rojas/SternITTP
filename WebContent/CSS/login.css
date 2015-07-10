@@ -26,10 +26,9 @@ input{
 }
 input[type=submit]{
 	cursor: pointer;
-	width: 55%;
-	margin-left: 25%;
 	text-align: center;
 	color:#f3f3f3;
+    
 	
 }
 #stern_logo{

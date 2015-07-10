@@ -3,19 +3,20 @@
  * login into mysql username root by default password
  * should be blank (empty string) 
  */
-
+SE
 CREATE DATABASE STERNITTS;
 
 #create login table
 CREATE TABLE `STERNITTS`.`login` (
   `userid` INT NOT NULL,
   `pass` VARCHAR(10) NOT NULL,
+  'name' VARCHAR(30),
   PRIMARY KEY (`userid`),
   UNIQUE INDEX `userid_UNIQUE` (`userid` ASC));
   
 #create time record database
 CREATE TABLE `STERNITTS`.`time_login` (
-  `id` INT NOT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `userid` VARCHAR(10) NOT NULL,
   `time_in` TIMESTAMP NULL,
   `time_out` TIMESTAMP NULL,
