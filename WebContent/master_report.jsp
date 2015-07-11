@@ -26,4 +26,7 @@
     	MasterReport sternMasterReport= new MasterReport(begin_date,end_date);
     	sternMasterReport.generateExcelRecords().write(fileOut);
     }catch(IOException e){}
+    
+   
+    response.sendRedirect("admin_dashboard.jsp");
 %>
