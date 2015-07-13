@@ -28,6 +28,8 @@ input[type=submit]{
 	cursor: pointer;
 	text-align: center;
 	color:#f3f3f3;
+	width:56%;
+	background:white;
     
 	
 }
